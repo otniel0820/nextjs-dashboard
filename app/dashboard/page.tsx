@@ -9,7 +9,11 @@ import {
   RevenueChartSkeleton,
 } from '../ui/skeletons';
 import CardWrapper from '../ui/dashboard/cards';
-
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+    title: 'Dashboard',
+  };
 const page = async () => {
   
   return (
